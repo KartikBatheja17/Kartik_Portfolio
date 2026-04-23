@@ -53,10 +53,10 @@ function Skills() {
           SKILLS.
         </motion.h2>
 
-        <div className="space-y-32">
+        <div className="space-y-24">
           {skillCategories.map((category, idx) => (
-            <div key={idx} className="relative">
-              <h3 className="absolute -top-12 md:-top-20 left-0 font-display text-[#111111] text-[15vw] md:text-[8vw] z-0 pointer-events-none whitespace-nowrap overflow-hidden leading-none">
+            <div key={idx}>
+              <h3 className="font-display text-[#333333] text-6xl md:text-8xl mb-12 leading-none">
                 {category.title}
               </h3>
               
@@ -64,14 +64,14 @@ function Skills() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="relative z-10 flex flex-wrap gap-12 md:gap-24 items-center"
+                className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 md:gap-12 w-full"
               >
                 {category.skills.map((skill, i) => (
-                  <div key={i} className="flex flex-col items-center justify-center gap-4 group">
-                    <div className="grayscale opacity-50 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300 transform group-hover:scale-110">
+                  <div key={i} className="flex flex-col items-center justify-center gap-6 group">
+                    <div className="transition-all duration-300 transform group-hover:scale-110 flex items-center justify-center h-16 drop-shadow-md">
                       {skill.icon}
                     </div>
-                    <span className="font-mono text-sm tracking-widest text-[#A0A0A0] group-hover:text-white transition-colors">
+                    <span className="font-mono text-xs md:text-sm tracking-widest text-[#A0A0A0] group-hover:text-white transition-colors text-center">
                       {skill.name}
                     </span>
                   </div>
