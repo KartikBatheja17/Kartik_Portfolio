@@ -26,7 +26,7 @@ function Experience() {
             <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-8 gap-4">
               <div>
                 <h3 className="font-display text-4xl md:text-5xl text-white">SOFTWARE DEVELOPER INTERN</h3>
-                <h4 className="font-display text-2xl text-[#1AFF75] mt-2">OXFORD SOFTWARE INSTITUTE</h4>
+                <h4 className="font-display text-2xl text-[#1AFF75] mt-2">OXFORD SOFTWARE INSTITUTE       (Delhi)</h4>
               </div>
               <div className="font-mono text-[#A0A0A0] text-lg uppercase tracking-widest">
                 Nov 2025 — Jan 2026

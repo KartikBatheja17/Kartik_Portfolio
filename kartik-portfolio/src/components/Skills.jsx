@@ -28,6 +28,7 @@ function Skills() {
       skills: [
         { name: "POSTGRESQL", icon: <SiPostgresql size={48} className="text-[#4169E1]" /> },
         { name: "MYSQL", icon: <SiMysql size={48} className="text-[#4479A1]" /> },
+
       ]
     },
     {

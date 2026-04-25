@@ -145,7 +145,11 @@ function Hero() {
               <a href="#projects" className="px-8 py-4 bg-[#1AFF75] text-black font-display text-xl uppercase tracking-widest hover:bg-white transition-colors border-2 border-transparent">
                 View Projects
               </a>
-              <a href="#" className="px-8 py-4 bg-transparent text-white font-display text-xl uppercase tracking-widest border-2 border-[#333333] hover:border-[#1AFF75] hover:text-[#1AFF75] transition-colors">
+              <a href="/Resume_kartik.pdf" 
+              
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="px-8 py-4 bg-transparent text-white font-display text-xl uppercase tracking-widest border-2 border-[#333333] hover:border-[#1AFF75] hover:text-[#1AFF75] transition-colors">
                 Download Resume
               </a>
             </motion.div>
@@ -158,13 +162,16 @@ function Hero() {
               transition={{ delay: 1.8 }}
               className="flex gap-8 justify-center md:justify-start"
             >
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="text-[#A0A0A0] hover:text-[#1AFF75] transition-all hover:scale-110">
+              <a href="https://github.com/KartikBatheja17" target="_blank" rel="noreferrer" className="text-[#A0A0A0] hover:text-[#1AFF75] transition-all hover:scale-110">
                 <FaGithub size={32} />
               </a>
               <a href="https://linkedin.com/in/kartik-batheja" target="_blank" rel="noreferrer" className="text-[#A0A0A0] hover:text-[#1AFF75] transition-all hover:scale-110">
                 <FaLinkedin size={32} />
               </a>
-              <a href="mailto:bathejasam.17@gmail.com" className="text-[#A0A0A0] hover:text-[#1AFF75] transition-all hover:scale-110">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bathejasam.17@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="text-[#A0A0A0] hover:text-[#1AFF75] transition-all hover:scale-110">
                 <FaEnvelope size={32} />
               </a>
             </motion.div>

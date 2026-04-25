@@ -6,9 +6,9 @@ function Footer() {
           Designed & Built by Kartik Batheja
         </p>
         <div className="flex gap-8 font-mono text-sm uppercase tracking-widest">
-          <a href="#" className="text-white hover:text-[#1AFF75] transition-colors">GitHub</a>
+          <a href="https://github.com/KartikBatheja17" className="text-white hover:text-[#1AFF75] transition-colors">GitHub</a>
           <a href="https://linkedin.com/in/kartik-batheja" className="text-white hover:text-[#1AFF75] transition-colors">LinkedIn</a>
-          <a href="mailto:bathejasam.17@gmail.com" className="text-white hover:text-[#1AFF75] transition-colors">Email</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bathejasam.17@gmail.com" className="text-white hover:text-[#1AFF75] transition-colors">Email</a>
         </div>
       </div>
     </footer>

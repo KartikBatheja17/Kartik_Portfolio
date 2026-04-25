@@ -40,7 +40,9 @@ function Contact() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
-          href="mailto:bathejasam.17@gmail.com" 
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=bathejasam.17@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer" 
           className="px-12 py-6 border border-[#333333] hover:border-[#1AFF75] text-white hover:text-[#1AFF75] font-display text-2xl uppercase tracking-widest transition-colors"
         >
           SAY HELLO
