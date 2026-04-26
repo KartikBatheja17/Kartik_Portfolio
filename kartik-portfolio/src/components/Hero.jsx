@@ -79,7 +79,7 @@ function Hero() {
               }}
             >
               Kartik Batheja
-            </motion.div>
+            </motion.div>git 
           </motion.div>
         )}
       </AnimatePresence>
