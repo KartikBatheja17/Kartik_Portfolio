@@ -20,7 +20,7 @@ function Contact() {
           transition={{ delay: 0.1 }}
           className="font-display text-7xl md:text-9xl text-white mb-12 hover:text-[#1AFF75] transition-colors cursor-pointer break-all"
         >
-          <a href="mailto:bathejasam.17@gmail.com">LET'S TALK.</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bathejasam.17@gmail.com">LET'S TALK.</a>
         </motion.h2>
 
         <motion.div

@@ -13,7 +13,7 @@ function App() {
       {/* Left side fixed email */}
       <div className="hidden md:flex fixed left-10 top-0 bottom-0 flex-col items-center justify-end z-40 pb-12">
         <a 
-          href="mailto:bathejasam.17@gmail.com" 
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=bathejasam.17@gmail.com" 
           className="text-[#A0A0A0] hover:text-[#1AFF75] transition-colors font-mono text-sm tracking-widest mb-6"
           style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
         >
